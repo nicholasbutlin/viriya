@@ -1,0 +1,108 @@
+<template name = 'about'>
+  <h1 id="tabs"> About <small> viriya energy </small></h1>
+  <ul  class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#consulting" id="consulting-tab" role="tab" data-toggle="tab" aria-controls="consulting" aria-expanded="true">Consulting</a></li>
+    <li role="presentation"><a href="#storage" id="storage-tab" role="tab" data-toggle="tab" aria-controls="storage" aria-expanded="true">Storage</a></li>
+    <li role="presentation"><a href="#team" id="team-tab" role="tab" data-toggle="tab" aria-controls="team" aria-expanded="true">Team</a></li>
+  </ul>
+    <div id="myTabContent" class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active" id="consulting" aria-labelledBy="consulting-tab">
+        {{> consulting }}
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="storage" aria-labelledBy="storage-tab">
+        {{> storage }}
+      </div>
+      <div role="tabpanel" class="tab-pane fade" id="team" aria-labelledBy="team-tab">
+        {{> team }}
+      </div>
+    </div>
+</template>
+
+<template name = 'consulting'>
+  <h1 id='consulting'>Consulting</h1>
+  <div class="row" >
+    <div class="col-md-9">
+      <p>
+        Viriya has developed new business and provided valuable consulting
+        services to businesses ranging from smaller, new market entrants to
+        established global players across the energy industry both in the UK and Globally.
+      </p><p>
+        Working with the UK's most innovative Demand Management, Energy Storage
+        and Electricity Supply companies as well as the likes of Ofgem, Elexon
+        and National Grid, Viriya's unique blend of strong proven technical,
+        operational and commercial expertise ensures clients get the best
+        possible outcomes.
+      </p>
+    </div>
+  </div>
+    <div class="row" >
+      <div class="col-md-6">
+      <h4>Technical Expertise</h4>
+        <ul>
+          <li>Demand Response & Demand Side Management</li>
+          <li>Battery and energy storage solutions</li>
+          <li>Smart Grid technologies, Micro Grids and Peer to Peer trading systems</li>
+          <li>Electricity Supply, Transmission and Distribution</li>
+          <li>Load curtailment, load shedding, Triad management,
+              peak tariff management and time of use tariffs</li>
+          <li>Metering, Controls and Automation</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+      <h4>Core Capabilities</h4>
+        <ul>
+          <li>Operations and Technology Strategy</li>
+          <li>Technology research and development</li>
+          <li>Complex Software and Hardware Engineering</li>
+          <li>Market development and innovation deployment</li>
+          <li>M2M, Data Analytics and Machine Learning</li>
+          <li>Technical and Commercial Project Management</li>
+        </ul>
+      </div>
+    </div>
+</template>
+
+<template name = 'storage'>
+  <h1 id='esaas'>Storage</h1>
+  <div class="row"  >
+    <div class="col-md-9">
+      <p>
+        more coming soon...
+      </p>
+    </div>
+  </div>
+</template>
+
+<template name = 'team'>
+  <h1  id='team'>Team</h1>
+  <div class="row">
+    <div class="col-md-9">
+      <p>
+        The founder <a href='http://uk.linkedin.com/in/nickbutlin/' target="_blank">Nick Butlin</a>
+        has led and delivered several Multi-million
+        pound projects including the UK's largest demand side aggregation deployment,
+        the  UK's biggest electric vehicle managed charging trial and was a key
+        team member in both Europe's largest Grid connected storage project and
+        biggest distributed storage project.
+      </p><p>
+        Nick was also at the heart of pioneering demand side aggregation in the
+        UK as Director of Operations and Technology for a fast growing and
+        innovative Demand Response company and has experience in technology
+        innovation and development, business and market modelling, and
+        electricity market policy development.
+      </p><p>
+        He holds an MEng in Mechanical Engineering, a CIMA Adv. Dip. in
+        Management Accounting and is a Chartered Engineer and
+        PMP certified Project Manager.
+      </p>
+      <h3>Vacancies</h3>
+      <p>
+        There are currently open positions for:
+      </p><p>
+        <a href="{{ pathFor 'contact' }}">Electrical Engineer </a>
+      </p><p>
+        <a href="{{ pathFor 'contact' }}">Software Engineer </a>
+      </p>
+    </div>
+  </div>
+</template>

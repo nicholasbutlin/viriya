@@ -1,0 +1,14 @@
+<template name = 'projects'>
+  <h1>Projects</h1>
+  <p> A selection of Viriya's recent projects is given below, please feel free to <a href="{{ pathFor 'contact' }}">contact us</a> to discuss any areas of interest</p>
+  <ul>
+    {{ #each projects }}
+      <li>{{> project }}</li>
+    {{ /each }}
+  </ul>
+</template>
+
+<template name = 'project'>
+  <h4>{{name}} <small> {{type}}</small></h4>
+  {{description}}
+</template>
