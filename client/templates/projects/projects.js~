@@ -3,12 +3,12 @@ Template.projects.helpers({
     {
       name: 'Retail electricity and demand management',
       type: 'Operational Strategy',
-      description: 'Organisation, process and system design for a new entrant electricity supplier'
+      description: 'Organisation, process and system designfor a new entrant electricity supplier'
     },
     {
       name: 'Electric vehicle managed charging',
       type: 'Technology R&D',
-      description: 'System design and engineering of an electric vehicle managed charging system for a UK demand response company'
+      description: 'System design and engineering of an electirc vehicle managed charging system for a UK demand response company'
     },
     {
       name: 'UK Opportunities in Energy Storage',
@@ -23,7 +23,7 @@ Template.projects.helpers({
     {
       name: 'Domestic Demand Response',
       type: 'Market Strategy',
-      description: 'Developing a value map of the possible entry points for a new entrant into the third party electricity market. Specifically targeting opportunities in domestic demand response.'
+      description: 'Developing a value map of the possible entry points for a new entrant into the third party electricity market. Specifically targeting opportunities in domestic demand reponse.'
     },
     {
       name: 'Electric vehicle demand response',
@@ -33,7 +33,7 @@ Template.projects.helpers({
     {
       name: 'Ancillary Services for Solar Developers',
       type: 'Market Analysis',
-      description: 'An analysis of the potential for ancillary services and energy storage for a UK based solar developer'
+      description: 'An analysis of the potential for ancillary servies and energy storage for a UK based solar developer'
     }
   ]
 })
